@@ -1,0 +1,51 @@
+# this action creates a new issue named Sprint Ceremony every Tuesday at 7 am local time
+# closes the previous week's issue
+# adds previous and next links
+# pins the issue to the top of the Issues list
+# and applies the label Sprint Ceremony
+
+name: Sprint Ceremony
+on:
+  schedule:
+  # run it every Tuesday at 7 am computer time
+  - cron: 0 7 * * 2 
+  # add a manual trigger for testing, comment the next line out when you're done testing
+  workflow_dispatch:
+
+jobs:
+  create_issue:
+    name: Application checklist
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Today's date
+        run: echo "TODAY=$(date '+%Y-%m-%d')" >> $GITHUB_ENV
+      - name: Sprint Ceremony
+        uses: imjohnbo/issue-bot@v3
+        with:
+          title: Sprint Ceremony Tracking Issue ${{ env.TODAY }}
+          body: |
+            ## Looking back
+
+            - What happened during this last sprint that we should discuss?
+            
+            ## Looking around
+
+            - What's going on right now?
+            - What are we bringing forward from the last sprint?
+            
+            ## Looking forward
+            
+            - Discuss this sprint's learning goals
+            - Discuss this sprint's deliverables
+            - Discuss schedule risks (upcoming events, holidays, vacations, etc.)
+            
+            ## Looking up
+
+            - What are some company or industry initiatives / trends that we should discuss?
+                        
+          pinned: true
+          close-previous: true
+          linked-comments: true
+          labels: Sprint Ceremony
