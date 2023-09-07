@@ -1,15 +1,14 @@
 # LavaConDemo2023
 
+## How to use this repo
+
+Clone it or fork it and do whatever you like to the copy. 
+At this time I am not taking contributions, since I need this as-is to make my presentation at [LavaCon 2023](https://lavacon.org/)! 😄 But after that, we'll see how it goes.
+
 ## Licensing
 
 This repository and contents are made available via the [Creative Commons Zero v1.0 Universal license](license.md) in order to provide the most benefit to the most people possible.
 It'd be nice if you credited me, of course, but you don't _have_ to. Clone and enjoy.
-
-## Contributing
-
-Not accepting contributions until after the live demo at [LavaCon 2023](https://lavacon.org/). Can't have my demo repo changing around before the presentation!
-
-After that, we'll see where it goes.
 
 ## What's in here?
 
