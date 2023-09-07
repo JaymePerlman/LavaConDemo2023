@@ -2,12 +2,14 @@ on:
   project_card:
     types: moved
 name: Project Card Event
+permissions:
+  issues: write
+jobs:
   triage:
-  name: Auto card labeler
-  runs-on: ubuntu-latest
-  permissions:
-    issues: write
-  steps:
-      uses: technote-space/auto-card-labeler@v2.0.0
-      with:
-        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    name: Auto card labeler
+    runs-on: ubuntu-latest
+    steps:
+      - name: auto card labeler
+        uses: technote-space/auto-card-labeler@v2.0.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
