@@ -8,3 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/auto-card-labeler@v2
+      with:
+          PROJECT: ${{ env.PROJECT }}
+          COLUMN: ${{ env.PR_COLUMN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
