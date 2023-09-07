@@ -3,6 +3,7 @@
 # adds previous and next links
 # pins the issue to the top of the Issues list
 # and applies the label Sprint Ceremony
+# if you look at the Project automation, issues labeled sprint ceremony are NOT auto-added to the Project to prevent clutter
 
 name: Sprint Ceremony
 on:
