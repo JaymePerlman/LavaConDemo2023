@@ -41,7 +41,7 @@ You can add any other type of label you need. For example:
 - Sunsetting status for articles migrated from elsewhere that will need removal from their original location after publishing
 - Assigned story points for measuring team velocity per sprint
 
-Keep in mind that many items such as assignees, reviewers, milestones, status, etc. are all tracked elsewhere already and don't need explicit labels.
+Keep in mind that many items such as assignees, reviewers, milestones, status, etc. are all tracked elsewhere already and don't need explicit labels. But you certainly can if you want to, and you can also use them to trigger more Actions.
 
 ## Milestones
 
