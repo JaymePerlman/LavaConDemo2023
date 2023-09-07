@@ -14,3 +14,8 @@ jobs:
 
       - name: Auto Status Labeler
         uses: peaceiris/actions-label-commenter@v1.10.0
+        with:
+          PROJECT: ${{ env.PROJECT }}
+          COLUMN: ${{ env.PR_COLUMN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
