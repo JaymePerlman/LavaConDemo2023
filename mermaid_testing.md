@@ -6,3 +6,11 @@ flowchart TD
     C -->|Absolutely!| E[the website]
     C -->|Yep!| F[at mermaid.live]
 ```
+
+```mermaid
+pie title Pie Chart
+    "Apple" : 35
+    "Peach" : 15
+    "Pumpkin" : 25
+    "Pecan" : 25
+```
