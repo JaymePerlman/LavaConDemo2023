@@ -9,6 +9,10 @@ on:
   schedule:
   # run it every Tuesday at 7 am computer time
   - cron: 0 7 * * 2 
+  # you can also set it to run on certain days of the month for two-week sprints
+  # this example runs at 7 am on the first and fifteenth of the month
+  # if you run it on the 30th February won't work right
+# - cron: 0 7 1,15 * *
   # add a manual trigger for testing, comment the next line out when you're done testing
   workflow_dispatch:
 
