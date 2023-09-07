@@ -1,17 +1,15 @@
 LavaCon 2023 Demo Tracking Board:
-  Published:
-    - 'Published'
-  Closed:
-    - 'Closed Unmerged'
   Intake:
     - 'Awaiting Triage'
   Backlog:
     - 'Backlog'
   Assigned:
     - 'This Sprint'
-  In progress:
-    - 'Writing Underway'
   Tech Review:
     - 'Tech Review Underway'
   Docs Review:
-    - 'Proofing Review Underway'
+    - 'Final Review Underway'
+  Published:
+    - 'Published'
+  Closed:
+    - 'Closed Unmerged'
