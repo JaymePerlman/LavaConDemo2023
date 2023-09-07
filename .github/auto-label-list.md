@@ -1,0 +1,17 @@
+LavaConDemo2023:
+  Published
+    - 'Published'
+  "Closed":
+    - 'Closed Unmerged'
+  Intake:
+    - 'Awaiting Triage'
+  Backlog:
+    - 'Backlog'
+  Assigned:
+    - 'This Sprint'
+  In progress:
+    - 'Writing Underway'
+  SME Review:
+    - 'Accuracy Review Underway'
+  Docs Review:
+    - 'Proofing Review Underway'
