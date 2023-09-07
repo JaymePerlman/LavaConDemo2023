@@ -48,7 +48,7 @@ I created one marking the first day of LavaCon. _(I BETTER be ready by then!)_ b
 
 ## Reviewers
 
-If you use GitHub, you can assign a whole team as Reviewers, but if you do, it's best practice to use the Round Robin [assignment algorithm](https://docs.github.com/en/organizations/organizing-members-into-teams/managing-code-review-settings-for-your-team#routing-algorithms). This built-in functionality picks the 2 people out of the team who haven't received a review request for the longest time and assigns them as reviewers. You can assign more, but don't assign fewer than 2 in case someone's out of the office for a while. 
+You _can_ assign a whole team as Reviewers, but if you do, it's best practice to use the Round Robin [assignment algorithm](https://docs.github.com/en/organizations/organizing-members-into-teams/managing-code-review-settings-for-your-team#routing-algorithms). This built-in functionality picks the 2 people out of the team who haven't received a review request for the longest time and assigns them as reviewers. You can assign more, but don't assign fewer than 2 in case someone's out of the office for a while. 
 
 If you just assign a review to "anyone on the team", sadly, everyone just assumes everyone else will do it and so nobody does it. If you pick two people, they're responsible for either doing the review or delegating it to someone who can. 
 
