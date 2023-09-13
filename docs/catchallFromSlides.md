@@ -1,2 +1,4 @@
 The most complete solution I’m aware of is Vale. If you’re running in Codespaces, VSCode, or another popular development environment, there’s already going to be a built-in plugin for you to use. It can actually check your content against the entire Microsoft Style Guide. If Vale is too heavy, ProseLint is another popular option, and there are more out there.
 And if you want to spend some time with our API and ChatGPT, you can write scripts of your own. With AI help, I wrote up a script that pulled dates from two different sources, compared them, and if the date in the file was wrong, updated it. If the field was missing or the content was invalid, it wrote the filename to an errata file so I can capture and track the task of fixing things. I went from exactly zero knowledge of Python to a fully functional script -- without asking Eng for help! -- in three days.
+
+https://swagger.io/blog/api-development/generator-openapi-repo/
