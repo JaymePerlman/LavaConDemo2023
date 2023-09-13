@@ -13,12 +13,16 @@ It'd be nice if you credited me, of course, but you don't _have_ to. Clone and e
 
 ## What's in here?
 
-- A Project board with multiple views, a status board, and sprints for tracking, statusing, and communicating.
+- A [Project board]([url](https://github.com/users/JaymePerlman/projects/1)) with multiple views.
+  -   All issues by title (a list)
+  -   All issues by current status (Kanban style)
+  -   All issues by sprint
+  -   A calendar roadmap with a couple of tracking milestones
 - The Project also has some built-in workflows to automatically add items and move them around when certain events occur.
 - A few test Issues to populate the project and illustrate some points
 - A few test PRs to populate the project and illustrate some cool features like Mermaid
 - Some files so you can understand how the CODEOWNERS file works to protect content from unauthorized changes
-- An Action workflow that automatically creates a new Sprint Ceremony issue containing an agenda template for your Sprint meeting every Tuesday. _(With an example option to change it to the first and fifteenth of the month if you run two-week sprints)_
+- An Action workflow that automatically creates a new Sprint Ceremony issue containing an agenda template for a Sprint planning meeting every Tuesday. _(With an example option to change it to the first and fifteenth of the month if you run two-week sprints)_
 
 ## What now?
 
