@@ -1,4 +1,8 @@
-# Labels
+---
+layout: page
+title: Labels
+description: Designing and using labels to help keep everything organized
+---
 
 You'll note that each category of label in the [Project]([url](https://github.com/users/JaymePerlman/projects/1)) is the same color. This is deliberate and very important.
 
