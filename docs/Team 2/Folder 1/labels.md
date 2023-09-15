@@ -6,6 +6,7 @@ description: Designing and using labels to help keep everything organized
 
 * TOC
 {:toc}
+<hr/>
 
 Don't create an "angry fruit salad" of labels in random, meaningless colors. 
 
