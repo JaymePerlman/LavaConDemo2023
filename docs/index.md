@@ -13,7 +13,7 @@ It'd be nice if you credited me, of course, but you don't _have_ to. Clone and e
 
 ## What's in here?
 
-- A [Project board]([url](https://github.com/users/JaymePerlman/projects/1)) with multiple views.
+- A [Project board](https://github.com/users/JaymePerlman/projects/1) with multiple views.
   -   All issues by title (a list)
   -   All issues by current status (Kanban style)
   -   All issues by sprint
@@ -28,3 +28,5 @@ It'd be nice if you credited me, of course, but you don't _have_ to. Clone and e
 
 Click the **Fork Me On GitHub!** banner in the upper left to begin poking around in the code.
 If you don't have a GitHub account yet, you'll need to [join](https://github.com/join) before you can start working with the repository that's powering this page.
+
+test link to [labels](./Team 2/Folder 1/labels.md) page
