@@ -1,4 +1,6 @@
-# LavaConDemo2023
+---
+layout: default
+---
 
 ## How to use this repo
 
