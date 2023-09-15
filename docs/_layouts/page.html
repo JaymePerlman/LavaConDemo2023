@@ -30,14 +30,14 @@
        
           <span class="ribbon-inner">
             <h1>{{ page.title | default: Page Title}}</h1>
-            <h2 style="text-align: left;">{{ page.description | default: Page Description  }}</h2>
+            <h2>{{ page.description | default: Page Description  }}</h2>
           </span>
 
       </header>
 
       <span class="banner-fix"></span>
 
-      <section id="main_content" style="padding: 50px 82px 0;">
+      <section id="main_content" style="padding: 50px 82px 0; text-align: left;">
         {{ content }}
       </section>
 
