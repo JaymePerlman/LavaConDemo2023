@@ -1,5 +1,4 @@
 remote_theme: pages-themes/merlot@v0.2.0
-<!-- tried minima and maybe for a subsequent page but not the main page! -->
 plugins:
 - jekyll-remote-theme
 title: "LavaCon 2023 - A KB Doesn't Have to Be a KO"
