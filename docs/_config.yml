@@ -1,6 +1,3 @@
-# setting the Markdown renderer to kramdown probably not necessary
-markdown: kramdown
-
 # setting the Theme to Merlot and simply accessing it remotely. This is the "default" layout
 remote_theme: pages-themes/merlot@v0.2.0
 
@@ -11,14 +8,3 @@ plugins:
 # setting the site title and description for the page template layouts
 title: "LavaCon 2023 - A KB Doesn't Have to Be a KO"
 description: "A template repository to jump-start writing big with a tiny team."
-
-# disable blank issues, forcing users to use templates
-blank_issues_enabled: false
-
-# define a custom collection directory
-collections_dir: docs
-
-#define custom collections
-collections:
-  team1:
-    output: true
