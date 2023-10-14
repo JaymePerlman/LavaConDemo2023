@@ -1,0 +1,46 @@
+name: New Document
+description: Provide information that should be published.
+title: "[New Doc]: "
+labels: ["New", "Sunsetting Triage"]
+projects: ["LavaConDemo2023/1"]
+# assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |      
+  - type: textarea
+    id: content_link
+    attributes:
+      label: Content or source location
+      description: Provide a link to the content wherever it is, or copy and paste it into this field.
+      # placeholder: 
+      # value:
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How quickly would you like this information published? Our normal turnaround is within a week. If you need this more quickly, please reach our in our Slack channel.
+      options:
+        - Urgent ASAP
+        - 1 week
+        - 2 weeks
+        - 1 month
+      default: 1
+    validations:
+      required: true
+  - type: checkboxes
+    id: review
+    attributes:
+      label: Self-review
+      description: If you selected Urgent Priority, we will contact you to discuss options.
+      options:
+        - label: Yes, I want to review the PR before it's published
+        - label: No, I don't need to review the PR before it's published.
+  - type: input
+    id: reviewers
+    attributes:
+      label: Additional reviewers
+      description: Add the name or email alias of additional reviewers.
+      placeholder: For example, add Security or Legal review
