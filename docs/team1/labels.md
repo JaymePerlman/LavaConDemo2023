@@ -8,6 +8,8 @@ description: Designing and using labels to help keep everything organized
 {:toc}
 <hr/>
 
+## Color is critical
+
 Don't create an "angry fruit salad" of labels in random, meaningless colors. 
 
 You'll note that every issue, as part of triaging the intake stream, is assigned **one** of each color of label in the [Project](https://github.com/users/JaymePerlman/projects/1). This is deliberate and very important. 
@@ -17,26 +19,32 @@ You'll note that every issue, as part of triaging the intake stream, is assigned
 - The type of intake source (light blue)
 - Current status (green)
 
-Each color corresponds to a category or type so you can easily see when information is missing or duplicated. 
+Each color corresponds to a category or type so you can **immediately** see when information is missing or duplicated. 
 
 - An issue that has both a "Data Drop" AND a "New Article" label, which are both light blue, can't have come from BOTH sources. It's one or the other.
 - If the issue has NO light blue label, then you immediately know that the intake source wasn't ever defined. [^1] 
 
-## Accessibility
+## But color isn't everything
 
-For accessibility purposes, add icons or emojis to labels, so they're not only different colors.
+For accessibility purposes, add icons or emojis to labels, so they're not differentiated only by color. 
 
-## Adding other label types
+The [W3C Ssuccess Criterion](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html) mandates that "color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element."
+
+## Add labels that you need
 
 You can add any other type of label you need. For example:
 
-- Sunsetting status for articles migrated from elsewhere that will need removal from their original location after publishing
+- Sunsetting status _(when content needs to be removed from the original location after publishing)_
 - Assigned story points for measuring team velocity per sprint
+- Affected team name(s)
+- Relevant topics or categories
 
-## Watch for unnecessary labels
+Labels can also serve as triggers for Actions.
 
-Keep in mind that many items such as assignees, reviewers, milestones, status, etc. are all tracked elsewhere already and don't necessarily need explicit labels. 
-But you certainly can if you want to, and you can also use them to trigger more Actions.
+## But not everything needs a label
+
+Many items such as assignees, reviewers, milestones, status, etc. are all tracked elsewhere already and don't necessarily need explicit labels. 
+Dates and deadlines, for example, can be much easier to see in the Roadmap view of a Project. Issues can be grouped into Milestones instead of applying a group Label.
 
 <hr />
 
