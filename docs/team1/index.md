@@ -5,9 +5,8 @@ title: Toc Testing
 
 ## TOC
 
-{% for item in site.docs.team1 %}
-- [{{ item.title }}]({{ item.url }})
-  
+{% for doc in site.team1 %}
+- [{{ doc.data.title }}]({{ doc.url }})
 {% endfor %}
 
 ## Additional resources
