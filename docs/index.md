@@ -32,4 +32,4 @@ Click the **Fork Me On GitHub!** banner in the upper left to begin poking around
 If you don't have a GitHub account yet, you'll need to [join](https://github.com/join) before you can start working with the repository that's powering this page.
 
 test link to [labels](./Team 2/Folder 1/labels.md) page
-test link to [toc playing](./Team 2/Folder 1/labelTOC.md) page
+test link to [toc](./testTOC.md) page
