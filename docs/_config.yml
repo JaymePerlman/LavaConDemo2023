@@ -11,3 +11,9 @@ plugins:
 title: "LavaCon 2023 - A KB Doesn't Have to Be a KO"
 description: "A template repository to jump-start writing big with a tiny team."
 # setting the site title and description for the page template layouts
+
+collections_dir: docs
+# specifying where all the Jekyll Collections are located. Grouping things into collections enables more "native" Jekyll functionality.
+collections:
+  team1:
+    output: true # publish everything in this collection to the Pages site
