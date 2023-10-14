@@ -1,6 +1,6 @@
 <ul>
   {% for collection in site.collections %}
-    {% if collection.label == 'Team1/Folder1' %}
+    {% if collection.label == 'team1' %}
       {% for document in collection.docs %}
         <li><a href="{{ document.url }}">{{ document.data.title }}</a></li>
       {% endfor %}
