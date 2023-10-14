@@ -4,11 +4,9 @@ title: Table of Contents
 ---
 
 <ul>
-{% for collection in site.collections %}
-  {% if collection.label == 'team1' %}
-    {% for document in collection.docs %}
-      <li><a href="{{ document.url }}">{{ document.data.title }}</a></li>
-    {% endfor %}
-  {% endif %}
-{% endfor %}
+  {% for item in site.team1 %}
+    {% if item.collection_dir == 'docs' and item.path contains 'team1' %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endif %}
+  {% endfor %}
 </ul>
