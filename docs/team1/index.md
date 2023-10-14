@@ -3,6 +3,10 @@ layout: page
 title: Resources
 ---
 
+* TOC
+{:toc}
+<hr/>
+
 ## Linters 
 
 The most complete linter/checking solution I’m aware of is [Vale](https://vale.sh/). 
