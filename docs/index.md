@@ -34,9 +34,9 @@ If you don't have a GitHub account yet, you'll need to [join](https://github.com
 ## TOC Test
 
 <ul>
-  {% for item in site.team1 %}
-    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-  {% endfor %}
+{% for item in site.docs.team1 %}
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{% endfor %}
 </ul>
 
 
