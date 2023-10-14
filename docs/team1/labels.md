@@ -8,7 +8,7 @@ description: Designing and using labels to help keep everything organized
 {:toc}
 <hr/>
 
-## Color is critical
+## Colors should be meaningful
 
 Don't create an "angry fruit salad" of labels in random, meaningless colors. 
 
@@ -26,9 +26,9 @@ Each color corresponds to a category or type so you can **immediately** see when
 
 ## But color isn't everything
 
-For accessibility purposes, add icons or emojis to labels, so they're not differentiated only by color. 
+For accessibility purposes, add icons or emojis to labels so they're not differentiated only by color. 
 
-The [W3C Ssuccess Criterion](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html) mandates that "color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element."
+The [W3C Success Criterion](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html) mandates that "color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element."
 
 ## Add labels that you need
 
