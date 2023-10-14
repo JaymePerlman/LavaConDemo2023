@@ -1,4 +1,14 @@
 ---
-layout: toc
+layout: page
 title: Table of Contents
 ---
+
+<ul>
+{% for collection in site.collections %}
+  {% if collection.label == 'team1' %}
+    {% for document in collection.docs %}
+      <li><a href="{{ document.url }}">{{ document.data.title }}</a></li>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+</ul>
