@@ -24,7 +24,7 @@ Each color corresponds to a category or type so you can easily see when informat
 
 ## Accessibility
 
-For accessibility purposes, add emoticons to labels, so they're not only different colors.
+For accessibility purposes, add icons or emojis to labels, so they're not only different colors.
 
 ## Adding other label types
 
@@ -38,5 +38,6 @@ You can add any other type of label you need. For example:
 Keep in mind that many items such as assignees, reviewers, milestones, status, etc. are all tracked elsewhere already and don't necessarily need explicit labels. 
 But you certainly can if you want to, and you can also use them to trigger more Actions.
 
+<hr />
 
 [^1]: We track the source so that we can absolutely determine where an article's content came from. Was it part of a release, or part of a larger document, or did someone contribute it out of tribal knowledge?
