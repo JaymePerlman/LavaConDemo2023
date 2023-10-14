@@ -1,13 +1,9 @@
-name: New Document
-description: Provide information that should be published.
+name: "New Article Submission"
+description: "Thank you for helping us help you!"
 title: "[New Doc]: "
 labels: ["New", "Sunsetting Triage"]
 projects: ["LavaConDemo2023/1"]
-# assignees:
 body:
-  - type: markdown
-    attributes:
-      value: |      
   - type: textarea
     id: content_link
     attributes:
