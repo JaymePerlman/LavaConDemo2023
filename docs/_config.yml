@@ -17,6 +17,7 @@ blank_issues_enabled: false
 
 collections_dir: docs
 # specifying where all the Jekyll Collections are located. Grouping things into collections enables more "native" Jekyll functionality.
+
 collections:
-  Team1:
+- Team1:
     output: true # publish everything in this collection to the Pages site
