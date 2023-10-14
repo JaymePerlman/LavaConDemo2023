@@ -30,4 +30,4 @@ If you don't have a GitHub account yet, you'll need to [join](https://github.com
 
 
 test link to [labels](./team1/labels.md) page
-test link to [toc](./team1/toc.md) page
+test link to [toc](./testTOC.md) page
