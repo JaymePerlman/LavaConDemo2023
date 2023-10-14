@@ -1,24 +1,28 @@
+# setting the Markdown renderer to kramdown probably not necessary
 markdown: kramdown
-# setting the Markdown renderer to kramdown
 
+# setting the Theme to Merlot and simply accessing it remotely. This is the "default" layout
 remote_theme: pages-themes/merlot@v0.2.0
-# setting the Theme to Merlot and simply accessing it remotely. No custom CSS yet.
 
+# Enabling remote Theme formatting access
 plugins:
 - jekyll-remote-theme
-# Enabling remote Theme formatting access
 
+# setting the site title and description for the page template layouts
 title: "LavaCon 2023 - A KB Doesn't Have to Be a KO"
 description: "A template repository to jump-start writing big with a tiny team."
-# setting the site title and description for the page template layouts
 
 # disable blank issues, forcing users to use templates
 blank_issues_enabled: false
 
-# specifying where all the Jekyll Collections are located. Grouping things into collections enables more "native" Jekyll functionality.
-# Setting output to true publishes custom collections.
-
+# define a custom collection directory
 collections_dir: docs
+
+#define custom collections
+collections:
+  - team1
+  
+# add attributes to custom collections so they are included with the publishing output
 collections:
   team1:
     output: true
