@@ -40,13 +40,12 @@
       <section id="main_content" style="padding: 50px 82px 0; text-align: left;">
         {{ content }}
 
-        ## TOC Test
-        <ul>
-          {% for item in site.docs.team1 %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-          {% endfor %}
-        </ul>
-        
+        <h2>TOC Test</h2>
+          <ul>
+           {% for item in site.team1 %}
+             <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+           {% endfor %}
+          </ul>
       </section>
 
       <footer>
