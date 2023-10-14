@@ -1,5 +1,13 @@
+markdown: kramdown
+# setting the Markdown renderer to kramdown
+
 remote_theme: pages-themes/merlot@v0.2.0
+# setting the Theme to Merlot and simply accessing it remotely. No custom CSS yet.
+
 plugins:
 - jekyll-remote-theme
+# Enabling remote Theme formatting access
+
 title: "LavaCon 2023 - A KB Doesn't Have to Be a KO"
 description: "A template repository to jump-start writing big with a tiny team."
+# setting the site title and description for the page template layouts
