@@ -31,5 +31,14 @@ It'd be nice if you credited me, of course, but you don't _have_ to. Clone and e
 Click the **Fork Me On GitHub!** banner in the upper left to begin poking around in the code.
 If you don't have a GitHub account yet, you'll need to [join](https://github.com/join) before you can start working with the repository that's powering this page.
 
+## TOC Test
+
+<ul>
+  {% for item in site.team1 %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
+
+
 test link to [labels](./team1/labels.md) page
 test link to [toc](./team1/toc.md) page
