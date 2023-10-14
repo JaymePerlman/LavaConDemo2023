@@ -5,7 +5,7 @@ title: Toc Testing
 
 ## TOC
 
-{% for item in site.team1 %}
+{% for item in site.docs.team1 %}
 - [{{ item.title }}]({{ item.url }})
   
 {% endfor %}
