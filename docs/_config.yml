@@ -15,9 +15,10 @@ description: "A template repository to jump-start writing big with a tiny team."
 # disable blank issues, forcing users to use templates
 blank_issues_enabled: false
 
-collections_dir: docs
 # specifying where all the Jekyll Collections are located. Grouping things into collections enables more "native" Jekyll functionality.
+# Setting output to true publishes custom collections.
 
+collections_dir: docs
 collections:
-  - Team1:
-    output: true # publish everything in this collection to the Pages site
+  team1:
+    output: true
