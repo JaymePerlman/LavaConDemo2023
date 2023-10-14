@@ -1,9 +1,13 @@
 name: "New Article Submission"
 description: "Thank you for helping us help you!"
 title: "[New Doc]: "
-labels: ["New", "Sunsetting Triage"]
+labels: ["New Article"]
 projects: ["LavaConDemo2023/1"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Complete the Title field above with a short descriptive name.
   - type: textarea
     id: content_link
     attributes:
