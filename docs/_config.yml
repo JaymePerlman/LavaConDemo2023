@@ -20,7 +20,7 @@ collections_dir: docs
 
 #define custom collections
 collections:
-  - team1
+- team1
   
 # add attributes to custom collections so they are included with the publishing output
 collections:
