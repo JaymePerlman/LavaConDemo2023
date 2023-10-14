@@ -1,0 +1,4 @@
+# disallow the option to create a new blank issue
+# there are workarounds but this will force the vast majority of people to use a template
+
+blank_issues_enabled: false
