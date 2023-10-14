@@ -20,7 +20,10 @@ It is not intended to be a truly functional documentation site.
 
 ## Where's the code?
 
-You can access the repo that's powering these pages [on GitHub](https://github.com/JaymePerlman/LavaConDemo2023) If you want to make a copy, click the **Fork Me On GitHub!** banner in the upper left. _(Not currently accepting [contributions](https://github.com/JaymePerlman/LavaConDemo2023/blob/main/CONTRIBUTING.md).)_
+You can access the repo that's powering these pages [on GitHub](https://github.com/JaymePerlman/LavaConDemo2023) There's a link at the bottom of the page.
+
+If you want to make a copy, click the **Fork Me On GitHub!** banner in the upper left. _(Not currently accepting [contributions](https://github.com/JaymePerlman/LavaConDemo2023/blob/main/CONTRIBUTING.md).)_
+
 If you don't have a GitHub account, you may need to [join](https://github.com/join) first.
 
 ## Licensing
