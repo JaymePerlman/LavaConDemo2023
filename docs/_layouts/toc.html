@@ -1,0 +1,9 @@
+---
+---
+<ul>
+  {% for item in site.collections %}
+    {% for document in item.docs %}
+      <li><a href="{{ document.url }}">{{ document.data.title }}</a></li>
+    {% endfor %}
+  {% endfor %}
+</ul>
