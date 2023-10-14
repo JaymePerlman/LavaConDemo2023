@@ -1,12 +1,15 @@
 ---
 layout: default
+title: How to get the most out of this repo
 ---
-
-## How to use this repo
 
 This repo demonstrates various basic Actions and templates but is not a truly functional documentation site. For a fully-featured site, take what you've learned here and apply it to a Real Docs Template such as [Just the Docs](https://github.com/just-the-docs/just-the-docs) which will give you a TON of actual docs-management functionality and other necessary features like navigation sidebars.
 
 This repo is specifically designed solely to exercise and illustrate the points covered in my presentation at [LavaCon 2023](https://lavacon.org/) 😄 in more depth. 
+
+- [Tips and additional resources](./team1/index.md)
+- [Proper usage of Labels](./team1/labels.md)
+- The user's view of the "New Article" [issue template](https://github.com/JaymePerlman/LavaConDemo2023/issues/new/choose)
 
 ## Licensing
 
