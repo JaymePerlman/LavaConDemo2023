@@ -4,40 +4,29 @@ layout: default
 
 ## How to use this repo
 
-Clone it or fork it and do whatever you like to the copy. 
-At this time I am not taking contributions, since I need this as-is to make my presentation at [LavaCon 2023](https://lavacon.org/)! 😄 But after that, we'll see how it goes.
+This repo demonstrates various basic Actions and templates but is not a truly functional documentation site. For a fully-featured site, take what you've learned here and apply it to a Real Docs Template such as [Just the Docs](https://github.com/just-the-docs/just-the-docs) which will give you a TON of actual docs-management functionality and other necessary features like navigation sidebars.
+
+This repo is specifically designed solely to exercise and illustrate the points covered in my presentation at [LavaCon 2023](https://lavacon.org/) 😄 in more depth. 
 
 ## Licensing
 
 [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 This repository and contents are made available via the [Creative Commons Zero v1.0 Universal license](license.md) in order to provide the most benefit to the most people possible.
-It'd be nice if you credited me, of course, but you don't _have_ to. Clone and enjoy.
+It'd be nice if you credited me, of course, but you don't _have_ to. Share and enjoy.
 
 ## What's in here?
 
-- A [Project board](https://github.com/users/JaymePerlman/projects/1) with multiple views.
-  -   All issues by title (a list)
-  -   All issues by current status (Kanban style)
-  -   All issues by sprint
-  -   A calendar roadmap with a couple of tracking milestones
+- A Project board with multiple views, a status board, and sprints for tracking, statusing, and communicating.
 - The Project also has some built-in workflows to automatically add items and move them around when certain events occur.
 - A few test Issues to populate the project and illustrate some points
 - A few test PRs to populate the project and illustrate some cool features like Mermaid
-- Some files so you can understand how the CODEOWNERS file works to protect content from unauthorized changes
-- An Action workflow that automatically creates a new Sprint Ceremony issue containing an agenda template for a Sprint planning meeting every Tuesday. _(With an example option to change it to the first and fifteenth of the month if you run two-week sprints)_
+- Some branch protections so you can start to understand how to protect your content from unwanted churn while still allowing easy contributions.
+- An Action workflow that automatically creates a new Sprint Ceremony issue containing an agenda template for your Sprint meeting every Tuesday. _(With an example option to change it to the first and fifteenth of the month if you run two-week sprints)_
 
 ## What now?
 
 Click the **Fork Me On GitHub!** banner in the upper left to begin poking around in the code.
 If you don't have a GitHub account yet, you'll need to [join](https://github.com/join) before you can start working with the repository that's powering this page.
-
-## TOC Test
-
-<ul>
-{% for item in site.docs.team1 %}
-  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-{% endfor %}
-</ul>
 
 
 test link to [labels](./team1/labels.md) page
